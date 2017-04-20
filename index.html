@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Asa Live in Lagos Encore</title>
+	<meta name="Resource-type" content="Document" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.55" />
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    
+    <script type="text/javascript" src="js/jquery.slimscroll.min.js"></script>
+
+    <link href="css/bootstrap.css" rel="stylesheet"/>
+	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="css/maincss.css" />
+	<style>
+
+	/* Style for our header texts
+	* --------------------------------------- */
+        @import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+        
+	h1{
+		font-size: 3em;
+		
+        font-family: 'Open Sans', sans-serif;
+		color: #000;
+		margin:0;
+		padding:0;
+	}
+        
+    h2{
+        font-size: 30px;
+        
+        font-family: 'Open Sans', sans-serif;
+        color: #fff;
+        
+        }
+        
+    h3 {
+         font-size: 20px;
+        
+        font-family: 'Open Sans', sans-serif;
+        color: #fff;
+        text-align: left;
+            
+        }  
+    h4  {
+          font-size: 18px;
+        
+        font-family: 'Open Sans', sans-serif;
+            color:#fff;
+        text-align:left; 
+        text-indent: 20px;
+        }   
+      p {
+          font-size: 13px;
+         
+          font-family: 'Open Sans', sans-serif;
+          color:#fff;
+          text-align: center;
+        } 
+    
+        a {
+            color: #fff;
+        } 
+        
+        a:hover {
+            color: burlywood;
+        }
+
+	/* Centered texts in each section
+	* --------------------------------------- */
+	.section{
+		text-align:center;
+		overflow: hidden;
+	}
+        
+     
+
+	#myVideo{
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		top:0;
+		right:0;
+		width: 100%;
+		height: 100%;
+		background-size: 100% 100%;
+ 		background-color: black; /* in case the video doesn't fit the whole page*/
+  		background-image: /* our video */;
+  		background-position: center center;
+  		background-size: contain;
+   		object-fit: cover; /*cover video background */
+   		z-index:3;
+	}
+
+
+
+	/* Layer with position absolute in order to have it over the video
+	* --------------------------------------- */
+	#section0 .layer{
+		position: absolute;
+		z-index: 4;
+		width: 100%;
+		left: 0;
+		top: 15%;
+	}
+        
+        #section0 .ticket{
+        -webkit-border-radius: 28;
+        -moz-border-radius: 28;
+        border-radius: 28px;
+        font-family: Arial;
+        color: #000000;
+        font-size: 20px;
+        background: transparent;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;      
+         
+        }
+        
+        #section0 .ticket:hover{
+         background: black;
+         text-decoration: none; 
+            
+        }
+        
+    /*solves problem with overflowing video in Mac with Chrome */
+       #section0{
+		overflow: hidden;
+	}    
+ 
+       #section1 {
+        background-size: cover;
+		background-image: url(imgs/IMG_5903.jpg);
+	}
+        
+        #section2 {
+            background-size: cover;
+            background-image: url(imgs/IMG_5965.jpg);
+        }
+      
+        
+        #section2 #container{
+            width: 200px;
+            height: 600px;
+        }
+        
+         
+        #section2 #box1{
+        width: 400px;
+        height: 600px;    
+        z-index: 1;
+        background-color: transparent;
+        margin-left: 450px; 
+        margin-top: 30px;
+        border-radius: 15px;  
+        box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45); 
+        padding-left: 12px;    
+        }
+        
+        
+      #section1 .btn {
+      -webkit-border-radius: 28;
+      -moz-border-radius: 28;
+      border-radius: 15px;
+      font-family: Arial;
+      font-size: 20px; 
+      padding: 7px 20px 7px 20px;
+      text-decoration: none;
+      background: transparent; 
+        color: #fff;  
+    }
+
+    #section1 .btn:hover {
+      background: #678294;
+      text-decoration: none;
+    }  
+    
+    #section1 #iframe {
+        width: 500px;
+        height: 450px;
+    }
+    
+   
+   
+
+	
+
+
+	/* Bottom menu
+	* --------------------------------------- */
+	#infoMenu li a {
+		color: #fff;
+	}
+        
+  @media screen and (max-width: 890px)  and (max-height: 680px) {
+        #section1 iframe {
+        width: auto;
+    
+    }
+      #section2 #box1{
+        width: 50%;
+        height: 80%; 
+        margin-left: 100px; 
+        margin-top: -30px;  
+          
+         
+        }
+      
+      
+}
+        
+	</style>
+
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    
+    
+    
+	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+	<script type="text/javascript" src="js/mainjs.js"></script>
+    
+    
+
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				verticalCentered: true,
+                anchors: ['Home', 'Ticketing', 'Outlets', 'Sponsors'],
+				
+                navigation: true,
+				navigationPosition: 'right',
+				navigationTooltips: ['Home', 'Ticketing','Outlets','Sponsors'],
+				responsiveWidth: 500,
+                afterRender: function(){
+
+
+					//playing the video
+					$('video').get(0).play();
+				}
+			});
+		});
+	</script>
+
+</head>
+<body>
+
+
+<div id="fullpage">
+	<div class="section " id="section0">
+		<video autoplay loop muted id="myVideo">
+			<source src="imgs/sortversion.mp4" type="video/mp4">
+
+			</video>
+        
+		<div class="layer">
+			<img src="imgs/Picture1.png" height="180px">
+         <br/>
+            <br/>
+            <br/>
+          <div style="align-content:center;" > <iframe src="http://free.timeanddate.com/countdown/i5nw1k6c/n742/cf12/cm0/cu4/ct2/cs1/ca0/co0/cr0/ss0/cacfff/cpcfff/pct/tcfff/fs200/szw320/szh135/iso2017-04-29T18:59:00" allowTransparency="true" frameborder="0" width="223" height="58"></iframe>
+
+
+</div> 
+            
+            
+        <div style="margin-top:150px;"><button class="ticket" name="buy tickets" value="buy tickets" data-menuanchor="secondPage"><a href="#Ticketing">Get Tickets </a></button> </div> 
+		</div>
+	</div>
+	<div class="section" id="section1">
+      
+      
+        <div>
+        <iframe src="https://seatgate.info/Orders/New/1019" width="500" height="475"></iframe>
+        </div>
+        
+            
+       
+             
+       
+	  
+	</div> 
+    
+    <div class="section" id="section2">
+           
+ <div id="box1">
+	    
+
+            <h2>Authorized Sellers</h2> <br/><br/> 
+            
+            <h3><ul>Ticketing Sites </h3> <br/>
+            <h4> <li><a href="https://www.ariiyatickets.com/new/event-detail.php?eid=285">Ariiya Tickets</a></li>
+                 <li><a href="https://www.nairabox.com/events/single.php?id=58ea29348ead0e47698b49b6">Naira Box</a></li>
+                </h4>
+                </ul>  <br/> <br/>
+        
+                    
+            <h3><ul> Offline Vendors </h3>
+                <br/>
+            <h4><li> IMAX </li> 
+                <li> All Cafe Neo Outlets </li><br/> <br/>
+            
+                </h4></ul> <br/><br/>
+            <p>For more information on Table Booking and Ticket Reservation:<br/> Femi 08091437555, Dami 08081437666</p> 
+            
+       
+            
+       
+                         
+            </div> 
+    </div>
+    
+    
+	<div class="section" id="section3">
+    <h1>Sponsored By: </h1>
+    
+    <img src="imgs/Air-France-Logo.png" width="300" height="200">
+        <img src="imgs/MoetHennessy_logo_N.jpg" width="450" height="150">
+        <img src="imgs/Multichoice.png" width="300" height="200">
+    
+    </div>
+    
+	</div>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
